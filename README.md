@@ -24,3 +24,22 @@ You should create one R script called run_analysis.R that does the following.
   * Appropriately labels the data set with descriptive variable names. 
   * Creates a second, independent tidy data set with the average of each variable for each activity and each subject
     
+## Assignment development
+
+File run_analysis.R contains all code to produce tinyData.txt required.
+
+That program
+
+###### 1.  Prepare files
+1.1  Download source file
+1.2  Uncompress file to extract desired
+
+###### 2.  Prepare a data set containing wanted columns
+2.1  Consolidate data for test and train
+2.2  Select column number for mean and std
+2.3  Subset data based on prior columns 
+2.4  Add activity and subject to subset
+2.5  Assign descritive names for columns
+
+###### 3.  Calculates mean for prior columns by activity and subject
+###### 4.  Create a file for tidy data
