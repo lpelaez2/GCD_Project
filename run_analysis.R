@@ -32,8 +32,8 @@ prepareFiles <- function(){
 # targetColumns
 # Select column numbers for mean and standard deviation, as required
 targetColumns <- function( features ){
-    colNum1 <- grep ("mean\\(\\)\\-[XYZ]", features)
-    colNum2 <- grep ("std\\(\\)\\-[XYZ]",  features)
+    colNum1 <- grep ("mean\\(\\)", features)
+    colNum2 <- grep ("std\\(\\)",  features)
 
     return( sort( union(colNum1, colNum2) ) )
 }
@@ -46,6 +46,7 @@ descriptiveNames <- function (measures){
     names <- gsub("\\)","", names)
     names <- sub("^t", "time_", names)
     names <- sub("^f", "freq_", names)
+    names <- sub("BodyBody", "Body", names)
     names <- sub("Body", "body_", names)
     names <- sub("Gravity", "gravity_", names)
     names <- sub("Acc", "acelerometer_", names)
@@ -135,7 +136,7 @@ prepareData <- function(){
 processData <- function(dataSet){
     z<-ncol(dataSet)-2
     
-    return (aggregate(dataSet[,1:48],  FUN=mean, by=list(Activity=dataSet$activity, Subject=dataSet$subject )))
+    return (aggregate(dataSet[,1:z],  FUN=mean, by=list(Activity=dataSet$activity, Subject=dataSet$subject )))
 
 }
 
