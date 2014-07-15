@@ -1,5 +1,19 @@
+
+### Source data
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+
+### Tidy data
 ##### Activity
+Activity name.
+
+Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 ##### Subject
+Person who performed the activity.
+
+Values: Integer form 1 to 30
+
 ##### time_body_acelerometer_mean_X
 ##### time_body_acelerometer_mean_Y
 ##### time_body_acelerometer_mean_Z
