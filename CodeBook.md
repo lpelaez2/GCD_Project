@@ -1,6 +1,6 @@
 
 ### Source data
-For this project, data correspond to measures of sensor signals from 30 volunteers.  File containig data is
+For this project, data correspond to measures of sensor signals from 30 volunteers eas taken from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 A full description of data is available at:
