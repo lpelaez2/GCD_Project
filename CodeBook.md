@@ -13,8 +13,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 <table>
 <tr>	<td>	Tidy name	</td><td>	Original name	</td><td>	Values	</td></tr>
-<tr>	<td>	Activity	</td><td>		</td><td>	"Activity performed:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-"	</td></tr>
+<tr>	<td>	Activity	</td><td>		</td><td>	Activity performed:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</td></tr>
 <tr>	<td>	Subject	</td><td>		</td><td>	Integer form 1 to 3	</td></tr>
 <tr>	<td>	time_body_acelerometer_mean_X	</td><td>	tBodyAcc-mean()-X	</td><td>	Average for the column. Double	</td></tr>
 <tr>	<td>	time_body_acelerometer_mean_Y	</td><td>	tBodyAcc-mean()-Y	</td><td>	Average for the column. Double	</td></tr>
